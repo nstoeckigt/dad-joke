@@ -4,6 +4,6 @@ set -e
 . /usr/share/debhelper/dh_installdeb
 dh_systemd_enable --user
 systemctl --user daemon-reload
-systemctl --user enable dad_joke.timer --now
-systemctl --user start dad_joke.service || true
+systemctl --user enable dad-joke.timer --now
+systemctl --user start dad-joke.service || true
 exit 0

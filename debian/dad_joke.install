@@ -1,3 +1,0 @@
-dad_joke.sh usr/local/bin/dad_joke.sh
-dad_joke.service lib/systemd/system/dad_joke.service
-dad_joke.timer lib/systemd/system/dad_joke.timer

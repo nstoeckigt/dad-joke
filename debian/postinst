@@ -1,0 +1,5 @@
+#!/bin/bash
+set -e
+systemctl daemon-reload
+systemctl enable dad_joke.timer --now
+exit 0

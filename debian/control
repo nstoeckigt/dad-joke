@@ -1,0 +1,12 @@
+Source: dad-joke
+Section: misc
+Priority: optional
+Maintainer: Nico Stöckigt <nico@nstoeckigt.de>
+Standards-Version: 0.1.0
+Build-Depends: debhelper (>= 9)
+
+Package: dad-joke
+Architecture: all
+Depends: bash, systemd
+Description: Periodic dad joke generator
+ This package installs a timer and a script to show periodic dad jokes.

@@ -1,0 +1,13 @@
+[Unit]
+Description=Display dad joke every hour
+
+[Timer]
+OnUnitActiveSec=1h
+OnBootSec=10min
+EnvironmentFile=/etc/dad_joke.conf
+OnBootSec=%E{DAD_JOKE_ONBOOTSEC}
+OnUnitActiveSec=%E{DAD_JOKE_ONUNITACTIVESEC}
+
+[Install]
+WantedBy=timers.target
+

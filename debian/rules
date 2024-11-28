@@ -1,0 +1,9 @@
+#!/usr/bin/make -f
+# -*- makefile -*-
+# Debian rules file for dad-joke package
+
+# Export necessary build flags
+export DH_VERBOSE = 1
+
+%:
+	dh $@

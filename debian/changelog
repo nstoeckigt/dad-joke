@@ -1,0 +1,7 @@
+dad-joke (0.1-1) unstable; urgency=medium
+
+  * Initial release of dad-joke package.
+  * Adds systemd timer and service for periodic dad joke notifications.
+
+ -- Nico Stöckigt <nico@nstoeckigt.de>  Thu, 28 Nov 2024 12:00:00 +0100
+
